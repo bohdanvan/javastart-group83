@@ -1,11 +1,12 @@
 /**
  * @author bvanchuhov
  */
-public class Overflow {
+public class Casting {
 
     public static void main(String[] args) {
-        byte b = 127;
-        b += 10;
+        int x = 200;
+        byte b = (byte)x; // BAD PRACTICE
         System.out.println(b);
+
     }
 }

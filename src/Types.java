@@ -7,8 +7,8 @@ public class Types {
         // Primitive Types (8)
 
         // 1. Integer Types (4)
-        byte b = 100; // 1B = 8b, max = 127
-        short s = 10000; // 2B = 16b, max = ~32 000
+        byte b = 127; // 1B = 8b, -128 ... 127
+        short s = 10000; // 2B = 16b, -32 000 ... +32 000
         int x = 1000000000; // 4B = 32b, max = 2 000 000 000
         long l = 1000000000000000000L; // 8B = 64b
 
