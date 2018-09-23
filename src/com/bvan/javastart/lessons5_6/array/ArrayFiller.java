@@ -11,10 +11,15 @@ public class ArrayFiller {
         int[] array = new int[5];
 
         // i = 0...9
-        for (int i = 0; i < array.length; i++) {
-            array[i] = 3;
-        }
+        int filler = 3;
+        fill(array, filler);
 
         System.out.println(Arrays.toString(array));
+    }
+
+    public static void fill(int[] array, int filler) {
+        for (int i = 0; i < array.length; i++) {
+            array[i] = filler;
+        }
     }
 }
